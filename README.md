@@ -5,7 +5,9 @@ To start the server type:
 python manage.py migrate
 python manage.py runserver
 
-To create a super user ( staff member ):
+python manage.py test to ensure tests are running as expected.
+
+Create a supseruser to see admin page -
 
 python manage.py createsuperuser
 
@@ -24,9 +26,3 @@ Task API - http://localhost:8000/api/task/
 Tiles API - http://localhost:8000/api/task/
 
 User API - http://localhost:8000/api/user/
-
-Description:
-
-Users can be created using the post method. Upon creation,
-users would be authenticated.
-To view other users user the get method.
