@@ -21,20 +21,7 @@ Current APIs:
 
 Task API - http://localhost:8000/api/task/
 
-Description:
-
-Uses ViewSet. Users can only see their own task and only create task if,
-they are the user.
-Uses ViewSet. Tiles can be created,retrieved,updated or destroyed.
-Authentication - required.
-
 Tiles API - http://localhost:8000/api/task/
-
-Description:
-
-Uses ViewSet. Tiles can be created,retrieved,updated or destroyed.
-
-Authentication not required.
 
 User API - http://localhost:8000/api/user/
 

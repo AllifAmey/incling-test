@@ -8,22 +8,18 @@ from incling_api import models
 from incling_api import serializers
 from incling_api import permissions
 
-    
+
 class TileViewset(viewsets.ModelViewSet):
     """Viewset to create,update and delete Tile models """
     serializer_class = serializers.TileSerializer
     queryset = models.Tile.objects.all() 
 
-    
-    
-
 
 class TaskViewset(viewsets.ModelViewSet):
-    """Only Users can create task objects and view their own tasks"""
+    """Viewset to create,update and delete Task models"""
 
     serializer_class = serializers.TaskSerializer
-    queryset = models.Task.objects.all() 
-    
+    queryset = models.Task.objects.all()
    
     
     
