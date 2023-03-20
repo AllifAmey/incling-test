@@ -3,9 +3,10 @@ This is a pre-interview coding test from Incling.
 To start the server type:
 
 python manage.py migrate
+
 python manage.py runserver
 
-python manage.py test to ensure tests are running as expected.
+python manage.py test - to ensure tests are running as expected.
 
 Create a supseruser to see admin page -
 
